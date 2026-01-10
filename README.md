@@ -1,5 +1,5 @@
 # CVP-103 Piano Key Models
-![IMG_2840](https://github.com/user-attachments/assets/2990835a-3b66-44b8-b939-8c8f91554ad5)
+![IMG_2840](https://github.com/user-attachments/assets/b449d093-4b2f-4006-9868-93f06eeb6aa7)
 This repository contains STL files for 3D-printable replacement keys for the Yamaha Clavinova CVP-103.
 
 # Included Keys:
