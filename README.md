@@ -3,26 +3,26 @@
 This repository contains STL files for 3D-printable replacement keys for the Yamaha Clavinova CVP-103.
 
 # Included Keys:
- - C / F Key (Universal mold)
- - D Key
- - E Key
- - G Key
- - A Key
+ - C / F Key (Universal mold)  
+ - D Key  
+ - E Key  
+ - G Key  
+ - A Key  
 # Not Included:
- - B Key
- - Accidentals (Sharps/Flats)
- - Highest and Lowest C Keys (The unique keys at the far ends of the board)
+ - B Key  
+ - Accidentals (Sharps/Flats)  
+ - Highest and Lowest C Keys (The unique keys at the far ends of the board)  
 
 # Installation & Maintenance
 To install the piano keys, you need to take apart practically the entire piano, I'd recommend watching this video by Mark Somoso Music  
 https://www.youtube.com/watch?v=NWI-tHZ_EUY  
 **Locking Mechanism Guide**
   Unlike the original OEM keys, these STL files do not yet feature external markings for the locking mechanism. Use the following list to ensure correct orientation:  
-    A Key -- Left Side
-    E Key -- Left Side
-    C / F -- Key Right Side
-    D Key -- Right Side
-    G Key -- Right Side
+  &nbsp;&nbsp;&nbsp;&nbsp;A Key -- Left Side  
+  &nbsp;&nbsp;&nbsp;&nbsp;E Key -- Left Side  
+  &nbsp;&nbsp;&nbsp;&nbsp;C / F -- Key Right Side  
+  &nbsp;&nbsp;&nbsp;&nbsp;D Key -- Right Side  
+  &nbsp;&nbsp;&nbsp;&nbsp;G Key -- Right Side  
 
 # Compatibility & Keybed Specs
 These models were designed specifically for the Yamaha GH (Graded Hammer) action. While they were tested on a Clavinova CVP-103, they are likely compatible with any Yamaha instrument that uses the same "GH" part numbers  (e.g., VU101002 for the C key).
@@ -31,21 +31,21 @@ This includes many popular models such as:
 **CVP Series:** 90 series, 100 series, and 200 series.  
 **P-Series:** P-80, P-90, P-120, P-155.  
 **Professional Synths:** Motif 8, ES8, XS8, and S90.  
-  **Note on Tolerances:** Because these keys rely on a "snug fit" with the original hooking mechanisms, your printer's calibration is key. If you are using a different model than the CVP-103, I recommend printing a single "C" key first to test the return action and height.  
+&nbsp;&nbsp;&nbsp;&nbsp;**Note on Tolerances:** Because these keys rely on a "snug fit" with the original hooking mechanisms, your printer's calibration is key. If you are using a different model than the CVP-103, I recommend printing a single "C" key first to test the return action and height.  
 
 # 3D Printing Guide for Yamaha GH Keys  
   Because these keys are mechanical parts subject to repeated stress (the "pounding" you mentioned), printing them correctly is just as important as the model itself. Here are the recommended settings based on the iterative testing of this project.  
   **1. Material Selection**  
-    **Recommended: PETG or ABS.** These materials have better "creep" resistance and flexibility than PLA. Since the keys use a hooking mechanism that must slightly flex during installation, PLA may be too brittle and snap over time.  
-    **Avoid: Resin (SLA).** While beautiful, standard resins are often too brittle for the high-impact nature of a "Graded Hammer" action.  
+  &nbsp;&nbsp;&nbsp;&nbsp;**Recommended: PETG or ABS.** These materials have better "creep" resistance and flexibility than PLA. Since the keys use a hooking mechanism that must slightly flex during installation, PLA may be too brittle and snap over time.  
+  &nbsp;&nbsp;&nbsp;&nbsp;**Avoid: Resin (SLA).** While beautiful, standard resins are often too brittle for the high-impact nature of a "Graded Hammer" action.  
   **2. Orientation**  
-    **Horizontal** (On its side): This is the strongest orientation. By printing the key on its side, the layer lines run the length of the key. This ensures that the stress from your fingers doesn't pull the layers apart (delamination).  
+  &nbsp;&nbsp;&nbsp;&nbsp;**Horizontal** (On its side): This is the strongest orientation. By printing the key on its side, the layer lines run the length of the key. This ensures that the stress from your fingers doesn't pull the layers apart (delamination).  
   **Vertical (Standing up):** Not recommended. While it provides the smoothest surface finish for your fingers, the hooking mechanism at the back will be very weak and prone to snapping along layer lines.  
   **3. Slicer Settings**  
-    **Layer Height:** 0.15mm to 0.2mm. Using a smaller layer height will make the curved edges feel smoother under your fingers.  
-    **Wall Count (Perimeters):** 3-4 walls. Most of the strength should come from the walls, not the infill.  
-    **Infill: 20-30% Gyroid.** Gyroid provides equal strength in all directions, which is great for the mechanical vibration of a piano key.  
-    **Supports: Required.** Because of the internal cavities and the hooking mechanism, you will need to enable supports. Use "Snug" or "Tree" supports for easier removal from the tight internal channels.  
+  &nbsp;&nbsp;&nbsp;&nbsp;**Layer Height:** 0.15mm to 0.2mm. Using a smaller layer height will make the curved edges feel smoother under your fingers.  
+  &nbsp;&nbsp;&nbsp;&nbsp;**Wall Count (Perimeters):** 3-4 walls. Most of the strength should come from the walls, not the infill.  
+  &nbsp;&nbsp;&nbsp;&nbsp;**Infill: 20-30% Gyroid.** Gyroid provides equal strength in all directions, which is great for the mechanical vibration of a piano key.  
+  &nbsp;&nbsp;&nbsp;&nbsp;**Supports: Required.** Because of the internal cavities and the hooking mechanism, you will need to enable supports. Use "Snug" or "Tree" supports for easier removal from the tight internal channels.  
   **4. Post-Processing**  
     **Sanding:** To get that "OEM feel," start with 400-grit sandpaper and work your way up to 1000 or 2000-grit (wet sanding).  
     **Lubrication:** When installing, apply a small amount of PTFE (Teflon) grease (like Super Lube) to the guide pins and the hooking mechanism. This prevents the plastic-on-plastic squeaking that often occurs with 3D-printed parts.  
@@ -54,22 +54,20 @@ This includes many popular models such as:
 While the current models are fully functional, there are several "Stage 2" engineering goals I’ve identified to bring these even closer to the OEM Yamaha experience.  
 **1. Integrated Maintenance Indicators**  
 The original Clavinova keys feature molded Orientation Indicators that point toward the locking mechanism.  
-  **The Goal:** Integrate a small debossed arrow or icon into the top of the internal frame.  
-  **The Benefit:** This would simplify the installation and lubrication process for future repairs, ensuring that even someone unfamiliar with the internal chassis can orient the keys correctly.  
+&nbsp;&nbsp;&nbsp;&nbsp;**The Goal:** Integrate a small debossed arrow or icon into the top of the internal frame.  
+&nbsp;&nbsp;&nbsp;&nbsp;**The Benefit:** This would simplify the installation and lubrication process for future repairs, ensuring that even someone unfamiliar with the internal chassis can orient the keys correctly.  
 **2. Advanced Weighting & Inertia Control**  
 To truly mimic a professional Graded Hammer action, the keys need to be heavier in the bass and lighter in the treble. I am exploring three levels of implementation:  
-  **Level 1** (The Simple Fix): Varying the Infill Percentage from 50% (Bass) down to 10% (Treble). This changes the static weight but does not fully solve the "feel" of the key's return.  
-  **Level 2** (Front-Loading): Using Slicer Modifiers to increase the density specifically at the front of the key. This better approximates the Moment of Inertia required for a realistic strike.  
-  **Level 3** (The Professional Solution): Designing Internal Cavities within the model to allow for a "mid-print pause." This would allow the user to drop in small metal weights (like steel nuts or lead shot) before the printer seals the chamber, perfectly replicating the heft of a real piano key.  
+ &nbsp;&nbsp;&nbsp;&nbsp;**Level 1** (The Simple Fix): Varying the Infill Percentage from 50% (Bass) down to 10% (Treble). This changes the static weight but does not fully solve the "feel" of the key's return.  
+ &nbsp;&nbsp;&nbsp;&nbsp;**Level 2** (Front-Loading): Using Slicer Modifiers to increase the density specifically at the front of the key. This better approximates the Moment of Inertia required for a realistic strike.  
+ &nbsp;&nbsp;&nbsp;&nbsp;**Level 3** (The Professional Solution): Designing Internal Cavities within the model to allow for a "mid-print pause." This would allow the user to drop in small metal weights (like steel nuts or lead shot) before the printer seals the chamber, perfectly replicating the heft of a real piano key.  
 **3. Dynamic Damping (Bounce Pads)**  
 The original keys utilize a small rubber "Bounce Pad" at the tip of the locking shaft. While its exact purpose is subtle, I suspect it serves as a vibration dampener to reduce mechanical noise and prevent long-term wear on the chassis.  
-  **The Goal:** Design a secondary, screw-in or snap-fit component.  
-  **The Implementation:** This part would be printed in a flexible filament like TPU or TPE. It would be a fascinating challenge in Multi-material design and assembly tolerances to ensure the pad stays secure during high-intensity play.  
+&nbsp;&nbsp;&nbsp;&nbsp;**The Goal:** Design a secondary, screw-in or snap-fit component.  
+&nbsp;&nbsp;&nbsp;&nbsp;**The Implementation:** This part would be printed in a flexible filament like TPU or TPE. It would be a fascinating challenge in Multi-material design and assembly tolerances to ensure the pad stays secure during high-intensity play.  
 
 # ------ The Origin Story: Engineering Hubris vs. Reality ------ # 
-This project was born from a mix of necessity and academic hubris. Growing up, I was forced into piano lessons—a chore I eventually grew to love in middle school when "pounding the keys" became my primary stress reliever. After getting married and moving into a college apartment, I finally decided to invest in a piano of my own.  
-I scoured the local resale market and found what I thought was a steal on a Yamaha Clavinova CVP-103. It turned out the "great deal" was due to 14 of the keys being completely shattered. My initial engineering instinct was simple: just use some glue. To my dismay, the plastic was irreparable, and OEM replacements on eBay were nearly $10 per key. At $140+ for a full set, the repair cost was approaching the value of the piano itself.  
-Naturally, I decided to put my engineering brain to work and 3D print the replacements. Easier said than done.  
+This project was born from a mix of necessity and academic hubris. Growing up, I was forced into piano lessons—a chore I eventually grew to love in middle school when "pounding the keys" became my primary stress reliever. After getting married and moving into a college apartment, I finally decided to invest in a piano of my own. I scoured the local resale market and found what I thought was a steal on a Yamaha Clavinova CVP-103. It turned out the "great deal" was due to 14 of the keys being completely shattered. My initial engineering instinct was simple: just use some glue. To my dismay, the plastic was irreparable, and OEM replacements on eBay were nearly $10 per key. At $140+ for a full set, the repair cost was approaching the value of the piano itself. Naturally, I decided to put my engineering brain to work and 3D print the replacements. Easier said than done.  
 
 **------ The Prototyping Process: 3D Scanning ------**
 Lacking extensive 3D modeling experience at the time, I attempted a high-tech shortcut: I used the professional 3D scanning arm available to students at BYU. The process was fascinating—the arm tracks its exact spatial coordinates in conjunction with a rotating pedestal, using a laser measurement system to plot thousands of points in real-time. Watching the digital twin form on the screen as if from nowhere was incredible.  
