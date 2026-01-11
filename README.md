@@ -88,7 +88,7 @@ I spent weeks in Fusion 360, moving past the basics to master advanced tools lik
 The "C" key was my trial by fire. I went through five full iterations of that single model, spending hours staring at failed prints to wrap my head around why they didn't work. One version wouldn't return properly; another had a hooking mechanism that was too brittle.
 However, once I perfected the fundamental dimensions and tolerances for the C key, the "engineering breakthrough" happened. Because the Clavinova uses a shared architecture for its keybed, creating the D, E, G, and A keys became significantly easier, usually requiring only one or two iterations to reach a perfect fit.  
 
-**------ Under the Hood ------**
+**Under the Hood**  
 The most rewarding part of the process was the final installation. To replace the keys, I had to completely disassemble the Clavinova, giving me a front-row seat to its inner workings. I spent a great deal of time identifying the various components—from the weighted hammer action to the contact sensors—figuring out exactly how Yamaha’s engineers had translated a physical strike into a digital signal.  
 
 These files are the result of that journey from a "lumpy" scan to a fully functional, 3D-printed keyboard.
