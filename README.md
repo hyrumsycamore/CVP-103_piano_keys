@@ -84,7 +84,7 @@ However, the excitement faded as soon as I ported the model to my laptop. I quic
 Realizing the scanner wouldn't save me, I pivoted to a more traditional engineering approach. I sat down with a pair of digital calipers and an original key, learning the hard way how to take truly accurate measurements of complex, organic plastic shapes.
 I spent weeks in Fusion 360, moving past the basics to master advanced tools like fillets for curved ergonomic edges and complex sketches for the internal hooking mechanisms. The goal was to ensure a snug fit with the piano's original infrastructure—a task that required understanding not just the shape of the key, but how it interacted with the guide pins and leaf springs inside the chassis.
 
-**he Iterative Grind**  
+**The Iterative Grind**  
 The "C" key was my trial by fire. I went through five full iterations of that single model, spending hours staring at failed prints to wrap my head around why they didn't work. One version wouldn't return properly; another had a hooking mechanism that was too brittle.
 However, once I perfected the fundamental dimensions and tolerances for the C key, the "engineering breakthrough" happened. Because the Clavinova uses a shared architecture for its keybed, creating the D, E, G, and A keys became significantly easier, usually requiring only one or two iterations to reach a perfect fit.  
 
