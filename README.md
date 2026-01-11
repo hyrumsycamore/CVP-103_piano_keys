@@ -25,13 +25,13 @@ https://www.youtube.com/watch?v=NWI-tHZ_EUY
     G Key -- Right Side
 
 # Compatibility & Keybed Specs
-  These models were designed specifically for the Yamaha GH (Graded Hammer) action. While they were tested on a Clavinova CVP-103, they are likely compatible with any Yamaha instrument that uses the same "GH" part numbers  (e.g., VU101002 for the C key).
-  This includes many popular models such as:
-  **CLP Series:** 800 and 900 series, plus early 100 series (CLP-120, 150, etc.)
-  **CVP Series:** 90 series, 100 series, and 200 series.
-  **P-Series:** P-80, P-90, P-120, P-155.
-  **Professional Synths:** Motif 8, ES8, XS8, and S90.
-      **Note on Tolerances:** Because these keys rely on a "snug fit" with the original hooking mechanisms, your printer's calibration is key. If you are using a different model than the CVP-103, I recommend printing a single "C" key first to test the return action and height.
+These models were designed specifically for the Yamaha GH (Graded Hammer) action. While they were tested on a Clavinova CVP-103, they are likely compatible with any Yamaha instrument that uses the same "GH" part numbers  (e.g., VU101002 for the C key).
+This includes many popular models such as:
+**CLP Series:** 800 and 900 series, plus early 100 series (CLP-120, 150, etc.)
+**CVP Series:** 90 series, 100 series, and 200 series.
+**P-Series:** P-80, P-90, P-120, P-155.
+**Professional Synths:** Motif 8, ES8, XS8, and S90.
+  **Note on Tolerances:** Because these keys rely on a "snug fit" with the original hooking mechanisms, your printer's calibration is key. If you are using a different model than the CVP-103, I recommend printing a single "C" key first to test the return action and height.
 
 # 3D Printing Guide for Yamaha GH Keys
   Because these keys are mechanical parts subject to repeated stress (the "pounding" you mentioned), printing them correctly is just as important as the model itself. Here are the recommended settings based on the iterative testing of this project.
